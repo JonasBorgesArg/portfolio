@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio - Jonas Marcelo Borges</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<ul>
+				<li><a href="#banner" onclick="toggleMenu()">Inicio</a></li>
+				<li><a href="#about" onclick="toggleMenu()">Acerca de mi</a></li>
+				<li><a href="#tecnologias" onclick="toggleMenu()">Tecnologías</a></li>
+				<li><a href="#project" onclick="toggleMenu()">Proyectos</a></li>
+				<li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+			</ul>
+			<div class="themeSwitch"></div>
+		</div>
+		<div class="main">
+			<div class="topbar">
+				<a href="#" class="logo">Portfolio</a>
+				<div class="toggle">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</div>
+			</div>
+			<section class="banner" id="banner">
+				<div class="content">
+					<div class="imgBx">
+						<img src="img/4x4.jpg" alt="foto">
+					</div>
+					<h3>Jonás Marcelo Borges</h3>
+					<p>Front End Web Developer.</p>
+					<a href="img/CV-Jonas-Marcelo-Borges.pdf" download="cv" class="btn" target="_blank">Descargar mi CV.</a>
+					<ul class="socialMedia">
+						<li><a href="https://www.facebook.com/jonas.borges.75/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/jonasborges97/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/jonas-borges-6ba26a144/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="about adjust" id="about">
+				<div class="title">
+					<h2>
+					Acerca de mi
+					</h2>
+				</div>
+				<div class="content">
+					<div class="textBox">
+						<p>
+							Soy Jonas Marcelo Borges, tengo 24 años, soy Desarrollador Web y Diseñador de Imagen y Sonido. Arranqué a programar de forma autodidactica navegando por diferentes sitios como Udemy, Youtube, Freecodecamp, Argentina Programa, Codewars documentaciones en W3Schools, Mozilla Developer Network, luego reforcé mis conocimientos y realicé proyectos en materias de la Universidad de Buenos Aires a la que asistí (Facultad de Diseño Arquitectura y Urbanismo). <br><br>
+							Me gusta investigar y leer todo lo nuevo relacionado al mundo IT, además tengo ambición de manejar el Stack completo aprendiendo Node JS. 
+						</p>
+					</div>
+					<div class="imgBx">
+						<img src="img/jonas.jpg" alt="aboutme">
+					</div>
+				</div>
+			</section>
+
+			<section class="services adjust" id="tecnologias">
+				<div class="title">
+					<h2>
+					Tecnologías
+					</h2>
+					<p>Estas son las tecnologías que manejo.</p>
+				</div>
+				<div class="content">
+					<div class="serviceBox">
+						<img src="img/html.png" alt="bootstrap">
+						<h2>HTML</h2>
+						
+					</div>
+					<div class="serviceBox">
+						<img src="img/css.png" alt="bootstrap">
+						<h2>CSS</h2>
+						
+					</div>
+					<div class="serviceBox">
+						<img src="img/js.png" alt="bootstrap">
+						<h2>Javascript</h2>
+						
+					</div>
+					<div class="serviceBox">
+						<img src="img/react.png" alt="bootstrap">
+						<h2>React JS</h2>
+						
+					</div>
+					<div class="serviceBox">
+						<img src="img/git.png" alt="bootstrap">
+						<h2>GIT</h2>
+						
+					</div>
+					<div class="serviceBox">
+						<img src="img/bootstrap.png" alt="bootstrap">
+						<h2>Bootstrap</h2>
+					
+					</div>
+					<div class="serviceBox">
+						<img src="img/photoshop.png" alt="bootstrap">
+						<h2>Photoshop</h2>
+						
+					</div>
+				</div>
+			</section>
+
+			<section class="project adjust" id="project">
+				<div class="title">
+					<h2>
+					Algunos proyectos
+					</h2>
+					<p>Estos son algunos de los proyectos que hice.</p>
+				</div>
+				<div class="content">
+					<div class="work8x">
+						<div class="imgBx">
+							<img src="img/carrito-compras-js.png" alt="faduRUN">
+						</div>
+					    <div class="textBx">
+					    	<h3>Carrito de compras en Javascript</h3>
+					    	<h5>Ejemplo práctico de unCarrito de compras hecho con vanilla Javascript</h5>
+					    	<a href="https://jonasborgesarg.github.io/carrito-compras/" target="_blank">VER</a>
+					    </div>
+					</div>
+					<div class="work8x">
+						<div class="imgBx">
+							<img src="img/faduRUN-portada.png" alt="faduRUN">
+						</div>
+					    <div class="textBx">
+					    	<h3>Fadu Run!</h3>
+					    	<h5>Juego hecho en vanilla Javascript</h5>
+					    	<a href="https://jonasborgesarg.github.io/FaduRun/" target="_blank">VER</a>
+					    </div>
+					</div>
+					<div class="work8x">
+						<div class="imgBx">
+							<img src="img/carrito-compras-react.png" alt="faduRUN">
+						</div>
+					    <div class="textBx">
+					    	<h3>Carrito de compras en React JS</h3>
+					    	<h5>Ejemplo de carrito de compras. La idea fue crear la funcionalidad del carrito hecho en vanilla Javascript, pero esta vez en React JS.</h5>
+					    	<a href="https://jonasborgesarg.github.io/carrito-compras-react/" target="_blank">VER</a>
+					    
+					    </div>
+					</div>
+					<div class="work8x">
+						<div class="imgBx">
+							<img src="img/to-do-app.png" alt="To-Do-App">
+						</div>
+					    <div class="textBx">
+					    	<h3>To Do List App</h3>
+					    	<h5>Aplicacion básica de un anotador de tareas.</h5>
+					    	<a href="https://jonasborgesarg.github.io/app-tareas/" target="_blank">VER</a>
+					    </div>
+					</div>
+					<div class="work8x">
+						<div class="imgBx">
+							<img src="img/logoZafari.png" alt="Zafari Producciones">
+						</div>
+					    <div class="textBx">
+					    	<h3>Zafari Producciones</h3>
+					    	<h5>Página para una productora de contenido audiovisual.</h5>
+					    	<a href="https://jonasborgesarg.github.io/zafariProducciones/" target="_blank">VER</a>
+					    </div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact adjust" id="contact">
+				<div class="title">
+					<h2>
+						Contactame!
+					</h2>
+					<p>Si necesitas contactarme, rellená el siguiente formulario:</p>
+				</div>
+				<form class="contactForm" action="https://formsubmit.co/jonasdx12@gmail.com" method="POST" target="_blank">
+					<div class="row">
+						<input type="text" name="Nombre" placeholder="Nombre" required>
+						<input type="text" name="Apellido" placeholder="Apellido" required>
+					</div>
+					<div class="row">
+						<input type="email" name="Email" placeholder="Email" required>
+						<input type="" name="Num. celular" placeholder="Numero de celular">
+					</div>
+					<div class="row2">
+						<textarea name="Mensaje" placeholder="Mensaje"></textarea>
+					</div>
+					<div class="row2">
+						<input type="submit" value="Enviar">
+					</div>
+				</form>
+			</section>
+
+			<div class="copyright">
+				<p>Pagina desarrollada por Jonás Borges. Año 2021</p>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
